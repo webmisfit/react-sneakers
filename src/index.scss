@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
+}
+
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+
+  max-width: 1080px;
+  margin: 85px auto;
+}
+
+header {
+  // display: flex;
+  // justify-content: space-between;
+  padding: 40px;
+  border-bottom: 1px solid #ccc;
+
+  img {
+    margin-right: 15px;
+  }
+
+  .headerLeft {
+    // display: flex;
+    // align-items: center;
+    margin-right: 30px;
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.content {
+  padding: 40px;
+
+  h1 {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}
+
+.card {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 210px;
+  height: 260px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  margin-right: 40px;
+
+  h5 {
+    width: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  .cardBottom {
+    margin-bottom: 10px;
+
+    span {
+      text-transform: uppercase;
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      color: #bdbdbd;
+    }
+
+    button {
+      box-sizing: border-box;
+      width: 32px;
+      height: 32px;
+      background: #ffffff;
+      border: 1px solid #f2f2f2;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    b {
+      // width: 80px;
+      // height: 17px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+  }
+}
